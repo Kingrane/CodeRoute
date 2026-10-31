@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/coderoute.gif" alt="Демо CodeRoute" width="90%" />
+<img src="assets/coderoute.gif" alt="Демо CodeRoute" width="65%" />
 
 <br/>
 

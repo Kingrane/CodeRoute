@@ -25,3 +25,7 @@ dist-ssr
 
 DESIGN.md
 .playwright-mcp
+assets/_frames/
+assets/coderoute.html
+assets/render.py
+assets/coderoute-showreel.mp4
