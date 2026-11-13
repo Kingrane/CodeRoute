@@ -21,7 +21,8 @@
 > Объяснения ошибок и новые задания на слабые темы будет подсказывать ИИ-ассистент.
 
 
-## Команда
+## Команда:
+Борисов Роман,
 
 [![Conributors][contibutors-logo]](https://github.com/Kingrane/CodeRoute/graphs/contributors)
 
