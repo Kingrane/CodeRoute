@@ -1,16 +1,30 @@
-function App() {
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import HomePage from './pages/HomePage.jsx'
+
+// Временные заглушки: заменяются настоящими страницами по мере готовности
+function Stub({ title }) {
   return (
-    <main className="grid min-h-svh place-items-center bg-white px-6 text-ink">
-      <div className="flex flex-col items-center gap-6 text-center">
-        <img src="/logo.svg" alt="CodeRoute" width="120" height="120" />
-        <div className="space-y-2">
-          <h1 className="text-3xl font-semibold tracking-tight">CodeRoute</h1>
-          <p className="text-sm text-neutral-500">
-            Игровое изучение программирования по уровням
-          </p>
-        </div>
+    <main className="grid min-h-svh place-items-center bg-white px-6 text-center text-ink">
+      <div className="space-y-2">
+        <h1 className="text-2xl font-semibold">{title}</h1>
+        <p className="text-sm text-neutral-500">Скоро появится</p>
       </div>
     </main>
+  )
+}
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/course" element={<Stub title="Карта курса" />} />
+        <Route path="/lesson/:id" element={<Stub title="Урок" />} />
+        <Route path="/lesson/:id/result" element={<Stub title="Итоги урока" />} />
+        <Route path="/sandbox" element={<Stub title="Песочница" />} />
+        <Route path="*" element={<Stub title="Страница не найдена" />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
