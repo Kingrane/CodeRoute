@@ -1,0 +1,39 @@
+{
+  "lessons": [
+    {
+      "id": "lesson-01",
+      "order": 1,
+      "title": "Первый вывод",
+      "description": "print, переменные, строки",
+      "taskCount": 4
+    },
+    {
+      "id": "lesson-02",
+      "order": 2,
+      "title": "Числа и f-строки",
+      "description": "арифметика, int(), вывод",
+      "taskCount": 4
+    },
+    {
+      "id": "lesson-03",
+      "order": 3,
+      "title": "Ветвления",
+      "description": "if, else, сравнения",
+      "taskCount": 4
+    },
+    {
+      "id": "lesson-04",
+      "order": 4,
+      "title": "Циклы",
+      "description": "for, range",
+      "taskCount": 4
+    },
+    {
+      "id": "lesson-05",
+      "order": 5,
+      "title": "Списки",
+      "description": "list, append, len",
+      "taskCount": 4
+    }
+  ]
+}
