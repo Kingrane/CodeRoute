@@ -24,6 +24,7 @@ dist-ssr
 *.sw?
 
 DESIGN.md
+plan.md
 /tasks/
 .playwright-mcp
 assets/_frames/
