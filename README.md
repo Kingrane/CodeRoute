@@ -35,7 +35,7 @@ npm run dev
 
 
 ## Команда:
-Борисов Роман, Исоян Анна, Каршинова Мирослава, Чибичян Георгий
+Борисов Роман, Исоян Анна, Каршинова Мирослава, Чибичян Георгий, Клявина Александра
 
 [![Conributors][contibutors-logo]](https://github.com/Kingrane/CodeRoute/graphs/contributors)
 
