@@ -12,7 +12,7 @@
 ## Чего нельзя без разрешения тимлида
 
 - Рефакторить, переименовывать и переформатировать чужой код.
-- Менять: `package.json`, `package-lock.json`, `vite.config.js`, `src/App.jsx`, `src/main.jsx`, `src/index.css`, `backend/**/Program.cs`, `README.md`.
+- Менять: `package.json`, `package-lock.json`, `vite.config.js`, `src/App.jsx`, `src/main.jsx`, `src/index.css`, `index.html`, `README.md`.
 - Добавлять зависимости.
 - Создавать папки вне своей зоны.
 - Выдумывать поля API — смотри `docs/api.md` и `docs/content-schema.md`.

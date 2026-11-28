@@ -10,7 +10,9 @@ function AppHeader() {
         </Link>
 
         <nav className="flex items-center gap-1 rounded-lg bg-paper p-0.5 text-sm">
-          <span className="rounded-md bg-white px-3 py-1 font-medium shadow-sm">Все уроки</span>
+          <Link to="/python" className="rounded-md bg-white px-3 py-1 font-medium shadow-sm">
+            Все уроки
+          </Link>
           <button
             type="button"
             className="rounded-md px-3 py-1 text-neutral-500"
