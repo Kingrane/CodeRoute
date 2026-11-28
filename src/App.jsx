@@ -1,5 +1,6 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import CoursePage from './pages/CoursePage.jsx'
+import CoursesPage from './pages/CoursesPage.jsx'
 import HomePage from './pages/HomePage.jsx'
 
 // Временные заглушки: заменяются настоящими страницами по мере готовности
@@ -19,10 +20,10 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/course" element={<CoursePage />} />
+        <Route path="/courses" element={<CoursesPage />} />
+        <Route path="/python" element={<CoursePage />} />
+        <Route path="/course" element={<Navigate to="/python" replace />} />
         <Route path="/lesson/:id" element={<Stub title="Урок" />} />
-        <Route path="/lesson/:id/result" element={<Stub title="Итоги урока" />} />
-        <Route path="/sandbox" element={<Stub title="Песочница" />} />
         <Route path="*" element={<Stub title="Страница не найдена" />} />
       </Routes>
     </BrowserRouter>

@@ -2,15 +2,20 @@
 
 | URL | Страница | Файл | Кто |
 |---|---|---|---|
-| `/` | Стартовый экран | `src/pages/HomePage.jsx` | Роман |
-| `/course` | Карта курса | `src/pages/CoursePage.jsx` | Роман |
+| `/` | Лендинг | `src/pages/HomePage.jsx` | Анна |
+| `/courses` | Список курсов | `src/pages/CoursesPage.jsx` | Георгий |
+| `/python` | Карта курса Python | `src/pages/CoursePage.jsx` | Георгий |
 | `/lesson/:id` | Урок «собери код» | `src/pages/LessonPage.jsx` | Роман |
-| `/lesson/:id/result` | Итоги урока | `src/pages/LessonResultPage.jsx` | Анна |
-| `/sandbox` | Песочница UI-кита | `src/pages/SandboxPage.jsx` | Георгий |
 | `*` | Страница не найдена | заглушка в `App.jsx` | Роман |
 
 Правила:
 
 - адреса не меняем без правки этого файла;
 - новые страницы добавляет только Роман в `App.jsx`;
-- параметр `:id` — это `lesson-01`, `lesson-02` и т.д., ровно как в JSON урока.
+- параметр `:id` — это `lesson-01`, `lesson-02` и т.д., ровно как в JSON урока;
+- старый адрес `/course` перенаправляет на `/python`, чтобы не ломать ссылки.
+
+## Пока не подключены
+
+- `/lesson/:id/result` — итоги урока, появятся, когда будет сама игра;
+- `/sandbox` — песочница UI-кита, вернёмся, если понадобится.
